@@ -11,7 +11,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        {/* <Background /> */}
+        <Background />
         <Infos />
       </main>
     </>
