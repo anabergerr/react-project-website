@@ -69,7 +69,7 @@ const Background = () => {
                   "value": 70
                 },
                 "zIndex": {
-                  "value": 0
+                  "value": -99
                 }
               },
               "z7500": {
