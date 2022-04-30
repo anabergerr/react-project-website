@@ -27,3 +27,8 @@ h1 {
     font-size: 18px !important;
     color: red;
 }
+
+.icon {
+    width: 45px;
+    margin-right: 10px;
+}
