@@ -1,9 +1,6 @@
 import Head from 'next/head'
 import Background from '../components/Background';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-
-
+import Infos from "../components/Infos";
 
 const Home = () => {
   return (
@@ -14,25 +11,8 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        {/* <Background /> */}
-        <Row>
-          <Col md={{ span: 4, offset: 4 }}>
-            <h1>console.log('ana')</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Ipsa molestias dolores delectus. Minima atque,
-              error quas tenetur a itaque, odit magni, eum rem aliquam eius
-              recusandae esse vero aut nesciunt.
-            </p>
-          </Col>
-          <Col md={{ span: 4, offset: 4 }}>
-            <h1>follow me, please :)</h1>
-          </Col>
-
-        </Row>
-
-
-
+        <Background />
+        <Infos />
       </main>
     </>
 
