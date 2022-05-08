@@ -11,7 +11,6 @@ const Background = () => {
   };
   return (
     <>
-
       <Particles
         id="ts-particles"
         init={particlesInit}
